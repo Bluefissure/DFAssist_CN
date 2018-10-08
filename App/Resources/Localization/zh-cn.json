@@ -1,0 +1,169 @@
+﻿{
+  "app-name": "Duty/FATE Assist CN",
+
+
+  "unknown-instance": "未知副本 ({0})",
+  "unknown-roulette": "未知随机副本 ({0})",
+  "unknown-area": "未知区域 ({0})",
+  "unknown-fate": "未知FATE ({0})",
+
+
+  "notification-app-updated": "升级版本{0}",
+  "notification-queue-matched": "< {0} > 已匹配!",
+
+
+  "tweet-fate-occured": "< {0} > FATE 出现!",
+  "tweet-queue-matched": "< {0} > Duty 已匹配!",
+
+
+  "fate-preset-animus-SkyfireI": "Book of Skyfire I",
+  "fate-preset-animus-SkyfireII": "Book of Skyfire II",
+  "fate-preset-animus-NetherfireI": "Book of Netherfire I",
+  "fate-preset-animus-SkyfallI": "Book of Skyfall I",
+  "fate-preset-animus-SkyfallII": "Book of Skyfall II",
+  "fate-preset-animus-NetherfallI": "Book of Netherfall I",
+  "fate-preset-animus-SkywindI": "Book of Skywind I",
+  "fate-preset-animus-SkywindII": "Book of Skywind II",
+  "fate-preset-animus-SkyearthI": "Book of Skyearth I",
+  "fate-preset-Ixion": "Ixion",
+  "fate-preset-Tamamo": "Tamamo",
+  "fate-preset-anemos": "优雷卡常风之地",
+  "fate-preset-pagos": "Eureka - Pagos",
+
+
+  "ui-notifymenustrip-open": "打开",
+  "ui-notifymenustrip-close": "退出",
+
+
+  "ui-topsetting-process": "FFXIV进程",
+  "ui-topsetting-select": "手动",
+  "ui-topsetting-reset": "重置",
+
+
+  "ui-tabcontrol-settings": "设置",
+  "ui-tabcontrol-fate": "FATE",
+  "ui-tabcontrol-logs": "日志",
+  "ui-tabcontrol-info": "信息",
+
+  "ui-settings-title": "基本设置",
+  "ui-settings-overlay-use": "显示悬浮窗",
+  "ui-settings-overlay-tooltip": "通过左侧绿色条形移动窗口",
+  "ui-settings-overlay-reset": "重置",
+  "ui-settings-startupshow": "程序运行时显示主菜单",
+  "ui-settings-autohide": "副本中自动隐藏悬浮窗",
+  "ui-settings-iconflash": "副本匹配/FATE出现时闪烁图标",
+  "ui-settings-cheatroulette": "显示随机副本实际匹配",
+  "ui-settings-tweet-title": "Eureka记录(未完成)",
+  "ui-settings-tweet-activate": "启用",
+  "ui-settings-tweet-about": "自动记录Eureka的NM出现情况到各种Tracker（绝赞开发中）",
+
+
+  "ui-fate-selectall": "选取全部",
+  "ui-fate-unselectall": "反选全部",
+  "ui-fate-preset": "预设",
+  "ui-fate-apply": "应用",
+  "ui-fate-about": "选择要接收通知的区域，然后按顶部的“应用”按钮\n请注意：警报仅在您处于选定区域时才有效",
+
+  "ui-logs-copy": "复制日志",
+  "ui-logs-clear": "清除",
+
+  "ui-info-about": "[Contributor]\n유채색\nLaiglinne\nHibiyasleep\nAlex00728\nBluefissure\n[Copyright]\nAll company, product, system names are\n registered or unregistered trademarks of their respective owners.\n(C)2010 - 2018 SQUARE ENIX CO., LTD All Rights Reserved.",
+
+  "ui-msgbox-title-info": "DFA 通知",
+  "ui-msgbox-title-warning": "DFA 警告",
+  "ui-msgbox-title-error": "DFA 错误",
+
+  "ui-language-changed": "语言已更改为中文\n您需要重新启动应用程序\n才能使某些更改生效\n请立即执行",
+
+  "ui-clipboard-copied": "复制到剪切版",
+
+  "ui-cheat-roulette-confirm": "此项功能由于之前的滥用情况曾被废弃。\n请不要故意拒绝特定的不喜欢的副本。\n\n您仍希望启用此项功能吗？",
+  "ui-cheat-roulette-enabled": "已启用\n请不要故意拒绝特定的不喜欢的副本。",
+
+  "ui-clear-log-confirm": "清除日志？",
+
+  "ui-fate-selection-saved": "FATE通知已设定",
+  "ui-fate-preset-applied": "已应用预设FATE.",
+
+  "ui-updating": "升级程序中...\n{0}",
+
+  "ui-app-crashed": "程序由于未知错误而异常退出\n\n异常: {0}",
+
+
+  "overlay-waiting-connection": "等待获取游戏连接",
+  "overlay-not-queuing": "无匹配队列",
+  "overlay-duty-count-unknown": "匹配副本",
+  "overlay-duty-count": "{0} 匹配副本",
+  "overlay-queue-waiting-party": "匹配小队: {0} / {1} / {2}",
+  "overlay-queue-waiting": "检索信息中...",
+  "overlay-queue-order": "等待列表数量: {0}",
+  "overlay-roulette": "随机副本",
+  "overlay-queue-waiting-confirm": "等待确认...",
+  "overlay-queue-matched": "副本已匹配!",
+  "overlay-queue-confirming": "检查玩家状态...",
+  "overlay-fate-occured": "FATE已触发!",
+
+
+  "l-process-set-success": "P: 选择了FFXIV进程: {0}",
+  "l-process-set-failed": "P: 选择了FFXIV进程失败",
+  "l-process-finding": "P: 查找FFXIV进程...",
+  "l-process-found-nothing": "P: 找不到FFXIV进程",
+  "l-process-found-multiple": "P: 多个FFXIV进程在运行",
+
+  "l-tweet-failed-request": "T: 请求Tweet时发生错误",
+  "l-tweet-failed-general": "T: 发送Tweet失败",
+  "l-tweet-success": "T: Tweet已发送!",
+
+  "l-web-request-failed": "W: 请求Web服务失败",
+
+  "l-updater-current-version": "U: 当前版本: {0}",
+  "l-updater-latest-version": "U: 最新版本: {0}",
+  "l-updater-is-latest": "U: 使用最新版本",
+  "l-updater-new-version": "U: 检测到新版本",
+  "l-updater-error-general": "U: 更新数据失败",
+  "l-updater-error-data": "U: 更新D/F数据失败",
+  "l-updater-error-check": "U: 找不到更新信息",
+  "l-updater-error-no-url": "U: 找不到更新文件",
+  "l-updater-error-downloading": "U: 获取更新数据时出错",
+
+  "l-data-updated": "D: D/F 数据已更新为版本 {0}.",
+  "l-data-is-latest": "D: 使用最新的D/F数据（版本{0}).",
+  "l-data-error": "D: 处理D/F数据时出错",
+
+  "l-packet-error-ip": "P: IP数据包解析错误",
+  "l-packet-error-tcp": "P: TCP数据包解析错误",
+
+  "l-network-started": "N: 开始读取网络数据包",
+  "l-network-starting": "N: 开始网络读取...",
+  "l-network-stopped": "N: 停止网络读取",
+  "l-network-stopping": "N: 请求停止网络读取...",
+  "l-network-error-starting": "N: 未能启动",
+  "l-network-error-stopping": "N: 未能停止",
+  "l-network-error-already-started": "N: 已启动",
+  "l-network-error-already-stopped": "N: 已停止",
+  "l-network-error-no-connection": "N: 找不到游戏服务器连接",
+  "l-network-error-receiving-packet": "N: 接收数据包时出错",
+  "l-network-error-filtering-packet": "N: 数据包过滤时出错",
+  "l-network-error-finding-lobby": "N: 接收大厅服务器信息时出错",
+  "l-network-detected-connection-closing": "N: 检测到的游戏服务器断开连接",
+  "l-network-detected-connection": "N: 检测到的游戏服务器连接: {0}",
+
+  "l-firewall-registered": "FW: 已注册",
+  "l-firewall-error": "FW: 注册时发生错误",
+
+  "l-analyze-error-length": "A: 分析消息时出现长度错误： {0}, {1}/{2}",
+  "l-analyze-error-general": "A: E分析消息时出错",
+  "l-analyze-error": "A: 处理Message时出错",
+
+  "l-queue-started-general": "Q: 开始匹配 [{0}]",
+  "l-queue-started-roulette": "Q: 开始随机副本匹配 [{0}]",
+  "l-queue-stopped": "Q: 匹配结束",
+  "l-queue-entered": "Q: 进入副本区域",
+  "l-queue-matched": "Q: 匹配了 [{0}]",
+  "l-queue-updated": "Q: 匹配信息更新 [{0}, {1}, {2}/{3}, {4}/{5}, {6}/{7}]",
+
+  "l-fate-occured-info": "F: {0} FATE已触发!",
+
+  "l-field-instance-entered": "I: 已进入对应区域 [{0}]",
+  "l-field-instance-left": "I: 离开了对应区域"
+}

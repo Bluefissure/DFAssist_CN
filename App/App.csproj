@@ -173,6 +173,7 @@
     <None Include="app.manifest">
       <SubType>Designer</SubType>
     </None>
+    <None Include="README.md" />
     <None Include="Resources\Data\en-us.json" />
     <None Include="Resources\Data\fr-fr.json" />
     <None Include="Resources\Data\ja-jp.json" />
@@ -190,10 +191,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Data\zh-cn.json" />
     <None Include="Resources\Localization\en-us.json" />
     <None Include="Resources\Localization\fr-fr.json" />
     <None Include="Resources\Localization\ja-jp.json" />
     <None Include="Resources\Localization\ko-kr.json" />
+    <None Include="Resources\Localization\zh-cn.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.ico" />

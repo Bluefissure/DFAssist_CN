@@ -71,6 +71,7 @@ namespace App
                 new Language { Name = "English", Code = "en-us" },
                 new Language { Name = "Français", Code = "fr-fr" },
                 new Language { Name = "日本語", Code = "ja-jp" },
+                new Language { Name = "中文", Code = "zh-cn" },
             };
 
             comboBox_Language.DisplayMember = "Name";
@@ -553,6 +554,11 @@ namespace App
             toolStripMenuItem_LogCopy.Text = Localization.GetText("ui-logs-copy");
             toolStripMenuItem_LogClear.Text = Localization.GetText("ui-logs-clear");
             label_About.Text = Localization.GetText("ui-info-about");
+
+        }
+
+        private void checkBox_AutoOverlayHide_CheckedChanged(object sender, EventArgs e)
+        {
 
         }
     }

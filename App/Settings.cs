@@ -9,7 +9,7 @@ namespace App
     {
         private static INIFile iniFile;
 
-        public static string Language { get; set; } = "ko-kr";
+        public static string Language { get; set; } = "en-us";
         public static bool ShowOverlay { get; set; } = true;
         public static int OverlayX { get; set; } = Global.OVERLAY_XY_UNSET;
         public static int OverlayY { get; set; } = Global.OVERLAY_XY_UNSET;
@@ -48,7 +48,7 @@ namespace App
                 TwitterAccount = iniFile.ReadValue("notification", "twitteraccount") ?? "";
                 FlashWindow = iniFile.ReadValue("notification", "flashwindow") != "0";
                 CheatRoulette = iniFile.ReadValue("misc", "cheatroulette") == "1";
-                Language = iniFile.ReadValue("misc", "language") ?? "ko-kr";
+                Language = iniFile.ReadValue("misc", "language") ?? "en-us";
                 Updated = iniFile.ReadValue("internal", "updated") != "0";
 
                 var fates = iniFile.ReadValue("fate", "fates");

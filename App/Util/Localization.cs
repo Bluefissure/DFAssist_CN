@@ -30,6 +30,10 @@ namespace App
                     json = Resources.Localization_JA_JP;
                     break;
 
+                case "zh-cn":
+                    json = Resources.Localization_ZH_CN;
+                    break;
+
                 default:
                     return;
             }
